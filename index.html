@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10101a"><meta name="description" content="Code Medium: a small home for browser experiments and games.">
+<title>Code Medium</title>
+<style>
+:root{color-scheme:dark;--bg:#0c0d14;--panel:#151827;--line:#2b3150;--text:#f3f4ff;--muted:#a3abc6;--accent:#9c7bff;--cyan:#66e6e1}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#29204d 0,transparent 36%),var(--bg);color:var(--text);font:16px/1.6 system-ui,sans-serif}a{color:inherit}.wrap{width:min(1060px,calc(100% - 36px));margin:auto}header{padding:24px 0;display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font-weight:900;letter-spacing:.12em}.brand span{color:var(--cyan)}nav{display:flex;gap:18px}nav a{text-decoration:none;color:var(--muted);font-size:14px}nav a:hover{color:white}.hero{padding:90px 0 70px;max-width:760px}.eyebrow{color:var(--cyan);font-size:12px;font-weight:800;letter-spacing:.2em;text-transform:uppercase}.hero h1{font-size:clamp(42px,8vw,76px);line-height:1.03;letter-spacing:-.055em;margin:14px 0}.hero p{font-size:18px;color:var(--muted);max-width:620px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.button{display:inline-block;text-decoration:none;padding:11px 17px;border-radius:10px;background:var(--accent);font-weight:800}.button.alt{background:transparent;border:1px solid var(--line)}section{padding:32px 0 70px}h2{font-size:28px;letter-spacing:-.03em;margin:0 0 18px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.card{padding:20px;border:1px solid var(--line);border-radius:16px;background:linear-gradient(145deg,#1a1d30,#111522);min-height:150px}.card h3{margin:0 0 8px}.card p{color:var(--muted);margin:0 0 14px;font-size:14px}.card a{color:var(--cyan);font-size:13px;font-weight:800;text-decoration:none}.card a:hover{text-decoration:underline}.note{color:var(--muted);font-size:14px}footer{border-top:1px solid var(--line);padding:24px 0 38px;color:var(--muted);font-size:13px}@media(max-width:600px){header{align-items:flex-start;flex-direction:column}.hero{padding:58px 0 45px}nav{flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div class="brand">CODE<span>·</span>MEDIUM</div><nav><a href="#projects">Projects</a><a href="#about">About</a><a href="https://github.com/saeedkarimzai">GitHub</a></nav></header>
+<main>
+<section class="hero">
+<div class="eyebrow">Browser experiments · games · tools</div>
+<h1>Ideas become<br>things you can play.</h1>
+<p>Code Medium is a home for small web experiments, browser games, simulators, and interactive projects. No giant setup process required.</p>
+<div class="actions"><a class="button" href="#projects">Explore projects</a><a class="button alt" href="https://github.com/saeedkarimzai">View GitHub</a></div>
+</section>
+<section id="projects">
+<h2>Featured projects</h2>
+<div class="grid">
+<article class="card"><h3>Kali Simulator 101</h3><p>A browser-based terminal simulator for learning commands and exploring a virtual file system.</p><a href="https://github.com/saeedkarimzai/kali-sim-101">Open repository ↗</a></article>
+<article class="card"><h3>YAPPER</h3><p>A real-time chat experiment with servers, channels, friends, private messages, and voice features.</p><a href="https://github.com/saeedkarimzai/yapper-test-1">Open repository ↗</a></article>
+<article class="card"><h3>A Lots of Game</h3><p>A browser arcade with mini-games and small 3D worlds.</p><a href="https://github.com/saeedkarimzai/a-lots-of-game">Open repository ↗</a></article>
+<article class="card"><h3>Blocky Gem Adventure</h3><p>A lightweight blocky platform game designed to run directly in a browser.</p><a href="https://github.com/saeedkarimzai/roblox-1o1-sim">Open repository ↗</a></article>
+<article class="card"><h3>CS Bhop</h3><p>A first-person bunny-hop challenge with speed, jumps, and a timed course.</p><a href="https://github.com/saeedkarimzai/cs-go-bhope">Open repository ↗</a></article>
+<article class="card"><h3>Homework Helper</h3><p>A browser-based study helper for questions, notes, and audio transcription.</p><a href="https://github.com/saeedkarimzai/ai">Open repository ↗</a></article>
+</div>
+</section>
+<section id="about"><h2>About this space</h2><p class="note">A lightweight static site. It uses plain HTML and CSS, has no build step, and works on GitHub Pages.</p></section>
+</main>
+<footer>Code Medium · Built for the browser.</footer>
+</div>
+</body></html>
